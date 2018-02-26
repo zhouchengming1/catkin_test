@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="xw_gs1810" type="imu_talker_time_test" name="imu_talker_time_test" output="screen" respawn="true">
+		<param name="loop_rate" value="10" />
+		<param name="time_out" value="10" />
+	</node>
+</launch>

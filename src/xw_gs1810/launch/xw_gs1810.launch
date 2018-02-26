@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="xw_gs1810" type="imu_talker" name="imu_talker" output="screen" respawn="true"/>
+</launch>
